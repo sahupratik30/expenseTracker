@@ -6,6 +6,10 @@ const message = document.getElementById("message");
 const list = document.getElementById("transaction_list");
 const details = document.getElementById("details");
 const transactionAmount = document.getElementById("transaction_amount");
+//Set current date to show the date of transaction
+let d = new Date();
+let date = `(${d.getDate()}/${d.getMonth() + 1}/${d.getFullYear()})`;
+console.log(date);
 const submit = document.getElementById("submit");
 const reset = document.getElementById("reset");
 reset.addEventListener("click", resetTransactions);
@@ -104,7 +108,9 @@ function updateTransactions(transaction) {
   let sign = transaction.type === "income" ? "plus" : "minus";
   let item = document.createElement("li");
   item.classList.add("list-group-item", sign);
-  item.innerHTML = `<font id="detail">${transaction.detail}</font> 
+  item.innerHTML = `<font id="detail">${
+    transaction.detail
+  } <span>${date}</span></font> 
   <div class="amount_div">
     <span>&#8377<span id="money">${Math.abs(transaction.amount)}</span></span>
     <button class="btn btn-danger" id="dlt_btn" onclick="deleteTransaction(${

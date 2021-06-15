@@ -184,4 +184,12 @@ font {
   .total {
     font-size: 20px;
   }
+  .list-group li {
+    font-size: 12px;
+  }
+}
+@media (max-width: 330px) {
+  .list-group li {
+    font-size: 10px;
+  }
 }
