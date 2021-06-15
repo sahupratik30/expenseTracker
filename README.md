@@ -25,9 +25,9 @@ An application to track all your day-to-day expenses.
 ```
 ## Screenshots
 
-![Screenshot](https://user-images.githubusercontent.com/80754608/122010951-3f634600-cdd9-11eb-803f-81228f27b175.png)
-![Screenshot](https://user-images.githubusercontent.com/80754608/122011022-5013bc00-cdd9-11eb-999d-c52bd0cbc504.png)
-![Screenshot](https://user-images.githubusercontent.com/80754608/122011085-5c981480-cdd9-11eb-9230-b997e6156ff5.png)
+<img align="left" alt="screenshot" width="300px" height="600px" src="https://user-images.githubusercontent.com/80754608/122010951-3f634600-cdd9-11eb-803f-81228f27b175.png" />
+<img align="left" alt="screenshot" width="300px" height="600px" src="https://user-images.githubusercontent.com/80754608/122011022-5013bc00-cdd9-11eb-999d-c52bd0cbc504.png" />
+<img align="left" alt="screenshot" width="300px" height="600px" src="https://user-images.githubusercontent.com/80754608/122011085-5c981480-cdd9-11eb-9230-b997e6156ff5.png" />
 
 ## Link to view the App
  - Link- `https://expensetracker-99360.web.app/`
